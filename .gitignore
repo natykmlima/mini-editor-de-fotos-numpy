@@ -1,0 +1,5 @@
+.venv/
+__pycache__/
+*.py[cod]
+mini_editor_numpy.png
+*Zone.Identifier
