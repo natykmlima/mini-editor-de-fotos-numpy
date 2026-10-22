@@ -27,6 +27,29 @@ O script processa a imagem original e gera um relatório visual consolidado lado
 Siga os passos abaixo para clonar o repositório e executar o script no seu ambiente local usando um ambiente virtual (`venv`):
 
 ### 1. Clone o repositório
-```bash
-git clone [https://github.com/natykmlima/mini-editor-de-fotos-numpy.git](https://github.com/natykmlima/mini-editor-de-fotos-numpy.git)
+\`\`\`bash
+git clone https://github.com/natykmlima/mini-editor-de-fotos-numpy.git
 cd mini-editor-de-fotos-numpy
+\`\`\`
+
+### 2. Crie e ative um ambiente virtual
+* **No Linux / macOS / WSL:**
+  \`\`\`bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  \`\`\`
+* **No Windows (PowerShell):**
+  \`\`\`powershell
+  python -m venv .venv
+  .venv\\Scripts\\Activate.ps1
+  \`\`\`
+
+### 3. Instale as dependências
+\`\`\`bash
+pip install -r requirements.txt
+\`\`\`
+
+### 4. Execute o script
+\`\`\`bash
+python editornumpy.py
+\`\`\`
